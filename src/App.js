@@ -26,7 +26,7 @@ const App = () => {
     },
     {
       name: "Facebook",
-      url: "https://facebook.com/studioandressa",
+      url: "https://www.facebook.com/andressa.goncalves.5496",
       icon: "facebook",
       color: "#1877F2"
     }
