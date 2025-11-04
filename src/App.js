@@ -8,7 +8,7 @@ const App = () => {
   const socialLinks = [
     {
       name: "Instagram",
-      url: "https://instagram.com/studioandressa",
+      url: "https://www.instagram.com/dessinhagmm/",
       icon: "instagram",
       color: "#E4405F"
     },
