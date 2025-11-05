@@ -121,8 +121,15 @@ const App = () => {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <h1>Studio Andressa</h1>
-            <span>Design de Sobrancelhas</span>
+            <img 
+              src="/logo.png" 
+              alt="Studio Andressa - Design de Sobrancelhas" 
+              className="logo-image"
+            />
+            <div className="logo-text">
+              <h1>Studio Andressa</h1>
+              <span>Design de Sobrancelhas</span>
+            </div>
           </div>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
@@ -326,7 +333,7 @@ const App = () => {
             <div className="footer-section">
               <h3>Contato</h3>
               <p>WhatsApp: +55 44 9919-8183</p>
-              <p>Maringá - PR</p>
+              <p>Sarandi - PR</p>
             </div>
             <div className="footer-section">
               <h3>Siga-nos</h3>
@@ -346,7 +353,7 @@ const App = () => {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 Studio Andressa - Design de Sobrancelhas. Todos os direitos reservados.</p>
+            <p>&copy; 2024 A G Beauty  - Design de Sobrancelhas. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

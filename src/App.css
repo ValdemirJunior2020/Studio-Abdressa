@@ -45,15 +45,37 @@ body {
   padding: 1rem 20px;
 }
 
-.logo h1 {
-  color: var(--dark-pink);
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
 }
 
-.logo span {
+.logo-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text h1 {
+  color: var(--dark-pink);
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.1;
+}
+
+.logo-text span {
   color: var(--text-color);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.1;
 }
 
 .nav {
@@ -476,5 +498,30 @@ body {
 
   .social-links {
     justify-content: center;
+  }
+
+  /* Logo Responsive */
+  .logo-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.1rem;
+  }
+  
+  .logo-text span {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    display: none;
+  }
+  
+  .logo-image {
+    width: 35px;
+    height: 35px;
   }
 }
