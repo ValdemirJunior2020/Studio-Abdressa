@@ -281,7 +281,7 @@ const App = () => {
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <h3>Localização</h3>
-                  <p>Studio Andressa - Maringá/PR</p>
+                  <p>Studio Andressa - Sarandi/PR</p>
                 </div>
               </div>
               
